@@ -3,6 +3,7 @@ dist
 .data
 .nitro
 .cache
-.output
+# .output
 .env
 .env.local
+.wrangler
