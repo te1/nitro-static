@@ -7,4 +7,7 @@ export default defineNitroConfig({
   imports: false,
   serveStatic: true,
   preset: "cloudflare_module",
+  cloudflare: {
+    deployConfig: true, // simulate behavior in cloudflare CI
+  },
 });
