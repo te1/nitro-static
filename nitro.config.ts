@@ -6,4 +6,5 @@ export default defineNitroConfig({
   srcDir: "server",
   imports: false,
   serveStatic: true,
+  preset: "cloudflare_module",
 });
