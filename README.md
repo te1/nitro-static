@@ -1,3 +1,5 @@
-# Nitro starter
-
-Look at the [nitro quick start](https://nitro.build/guide#quick-start) to learn more how to get started.
+- "repro" for https://github.com/nuxt/nuxt/issues/34186
+- run `pnpm install && pnpm build`
+- observe `.output/server/index.mjs` exists
+- generated wrangler.json matches
+- there is no problem in pure nitro
